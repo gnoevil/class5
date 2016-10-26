@@ -89,17 +89,17 @@ Test this function by hand in the console to get it working, and when you think 
 var testArray = [2,3,4]; //eslint-disable-line
 
 function resultSum(){
-    var sum = 0;
-    for (var i = 0; i < testArray.length; i++){
-        sum += testArray[i];
-    }
-    return sum;
+  var sum = 0;
+  for (var i = 0; i < testArray.length; i++){
+    sum += testArray[i];
+  }
+  return sum;
 };
 
 function sumArray(answer, message){ //eslint-disable-line
-    var answer = resultSum(testArray);
-    var message = (a + ', ' + b+ ', ' + c + ' were passed in as an array of numbers, and ' + answer + ' is their sum.');
-    return [answer, message];
+  var answer = resultSum(testArray);
+  var message = (a + ', ' + b + ', ' + c + ' were passed in as an array of numbers, and ' + answer + ' is their sum.');
+  return [answer, message];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
